@@ -1,0 +1,45 @@
+.navbar{
+  height: 80px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: 500;
+}
+
+.navButton{
+
+  margin-left: 30px;
+  padding: 10px 10px;
+  border-radius:0.5rem;
+  cursor: pointer;
+  color: #003580;
+}
+.navButton:hover{
+  background-color: gray;
+  color: white;
+}
+.navItems{
+  display: flex;
+  justify-content:flex-end;
+  padding: 2rem;
+  align-items: center;
+}
+.itemList{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.itemList:hover{
+  color: gray;
+}

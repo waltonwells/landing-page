@@ -5,13 +5,14 @@ import Header from "../../components/header/Header";
 import MailList from "../../components/mailList/MailList";
 import PropertyList from "../../components/propertyList/PropertyList";
 import "./home.css";
-import assets from '../../assets/lag.jpeg'
+import assets from '../../assets/Hero-Zennvoy.png'
+import Navbar from "../../components/navbar/Navbar";
 
 
 const Home = () => {
   return (
     <div>
-      
+      <Navbar/>
       
       <div className="imgCont">
 <img 
